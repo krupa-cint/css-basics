@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    font-size: 22px;
+
+}
+
+p {
+    color: purple;
+}
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    color: blue;
+}
+
+#secound {
+    font-size: italic;
+   /*this is not working- */
+} 
+
+.brown {
+    color: brown; 
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: yellow;
+}
