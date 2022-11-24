@@ -1,0 +1,9 @@
+h1 {
+    font-size: medium;
+
+}
+/* decleration is property n value pair*/
+
+section > b , div > b{
+    color: blueviolet;
+}

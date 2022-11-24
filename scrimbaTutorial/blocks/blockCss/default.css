@@ -1,0 +1,31 @@
+html, body{
+
+    margin: 0;
+    padding: 0;
+    /* background-color: #5c6b2c; */
+}
+
+body {
+    background-color: #f9b87b;
+    /* color: rgba(0,0,0,.8); */
+    padding: 20px;
+    border: 4px double #e2193466;
+}
+
+#inline, #block {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgba(255,255,50,.4);
+}
+
+#inline > * {
+    background-color: rgb(198, 217, 236); 
+    margin: 10px 0px 10px 10px;
+    padding: 5px;
+}
+#block > * {
+    box-sizing: border-box;
+    background-color: rgb(198, 217, 236);
+    padding: 20px;
+    margin: 10px;
+}

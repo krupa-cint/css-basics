@@ -18,13 +18,11 @@ h2 {
     color: blue;
 }
 
-#secound {
-    font-size: italic;
-   /*this is not working- */
-} 
 
 .brown {
     color: brown; 
+    font-weight: Italic;
+    
 }
 
 .highlight {

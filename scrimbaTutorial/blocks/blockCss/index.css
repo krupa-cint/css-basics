@@ -1,0 +1,11 @@
+#inline * {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 4cm;
+}
+
+#block * {
+    width: 700px;
+    height: 50px;
+}

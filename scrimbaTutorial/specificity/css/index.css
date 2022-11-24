@@ -1,0 +1,39 @@
+
+ 
+/* html .class{
+    background-color: brown;
+}  */
+html body {
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: aqua;
+}
+
+.class {
+    background-color: greenyellow;
+}
+
+html .class{
+    background-color: brown;
+} /* this is not working  even changing  the order*/
+
+
+/*order of specificity is bit confusing*/
+#id {
+    background-color: blue;
+}
+
+/*  ???
+inline
+id
+.class
+2 level
+
+*/
+
+/* More Info about specificity */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+/* Specificity calculator */
+/* http://specificity.keegan.st/ */
