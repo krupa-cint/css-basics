@@ -1,0 +1,22 @@
+.box {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px; 
+    padding: 10px;
+    /* box-sizing: border-box; */
+    /* border-style: solid;
+    border-color: lightseagreen;
+    border-width: 20px;  */
+    /* border-style, border-color, border-width == border*/
+    border: solid lightseagreen 20px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+.content {
+    background-color: white;
+    
+}
+
+.parent{
+    background-color: rgba(199, 28, 28, 0.4);
+}

@@ -1,0 +1,14 @@
+.inline{
+   background-color: aquamarine;
+   color: olive;
+   padding: 5px 9px;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin: 5px;
+}
+
+.block {
+    border: 3px solid rgb(71, 255, 114);
+    padding: 5px;
+}

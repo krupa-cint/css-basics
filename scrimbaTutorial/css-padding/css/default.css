@@ -1,0 +1,65 @@
+:root {
+    --primary: #3D85CG;
+    --margin: rgba(0,0,0,.2);
+    --box:lightgreen;
+    --content: peach;
+}
+
+ul{
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin-left:40px;
+}
+
+ul li{
+    padding: 2px;
+}
+
+li::before{
+    content: ".";
+    font-size: 100px;
+    position: relative; /* for my system relative is working not absolute --> the bullet was not showing for margin*/
+    left: -35px;
+    line-height: 1.4rem;
+}
+
+ul li:nth-child(1)::before {
+    color: var(--margin);
+}
+ul li:nth-child(2)::before {
+    color: var(--box);
+}
+ul li:nth-child(3)::before {
+    color: lightgray;
+}
+ul li:nth-child(4)::before {
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* background-color: var(--primary); */
+    background-color:rgba(0, 0, 255, 0.195)
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.parent {
+    display: flex;
+    background-color: var(--margin);
+}
+.box {
+    height: 30%;
+    width: 30%;
+}
+.content {
+    height: 100%;
+    display: inline-block;
+    width: 100%;   
+    text-align: center;
+}
