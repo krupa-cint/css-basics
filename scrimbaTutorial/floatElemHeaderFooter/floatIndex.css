@@ -1,0 +1,40 @@
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.blue {
+    float: right;
+    width: 80%;
+    height: 80px;
+}
+
+.green {
+    float: left;
+    width: 20%;
+    height: 765px;
+    
+}
+
+.yellow {
+    float: right;
+    width: 80%;
+    height: 600px;
+    color: brown;
+    
+    
+}
+
+.magenta {
+    float: right;
+    float: right;
+    width: 80%;
+    height: 85px;
+}
+
+.clearfix { 
+    clear: both;
+}
+    

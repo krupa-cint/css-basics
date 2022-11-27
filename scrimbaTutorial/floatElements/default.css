@@ -1,0 +1,57 @@
+ html {
+    background-color: slateblue;
+} 
+
+html body > h1 {
+    color:white;
+    text-align: center;
+    padding :10px 0;
+    background-color: slateblue;
+
+}
+body {
+    background-color: transparent;
+    margin: 0;
+}
+
+.box {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 2em;
+    /* margin-bottom: 25px; */
+}
+
+section {
+    background-color: white;
+
+}
+.red {
+    background-color: red;
+    
+}
+
+.blue {
+    background-color: blue;
+    
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.gold {
+    background-color: gold;
+}
+
+

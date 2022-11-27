@@ -1,0 +1,40 @@
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.red {
+    float: right;
+    width:50%;
+    
+}
+
+.blue {
+    clear: right;
+    width:50%;
+    
+}
+
+.green {
+    float: right;
+    width:50%;
+    
+}
+
+.yellow {
+    clear: right;
+    width:50%;
+    color: brown;
+    
+    
+}
+
+.magenta {
+    float: right;
+    width:50%;
+}
+
+.gold {
+    clear: right;
+    width:50%;
+} 
