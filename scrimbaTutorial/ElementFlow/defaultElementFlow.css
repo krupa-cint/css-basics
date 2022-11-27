@@ -1,4 +1,5 @@
 html{
+    background-color: #3D85C6; 
     padding: 0;
     margin: 0;
 }
@@ -12,7 +13,7 @@ a, code, bold, italic{
 }
 
 header{
-    background-color: lightgoldenrodyellow;
+    background-color:lightcyan;
     color: blue;
     text-align: center;
 }
