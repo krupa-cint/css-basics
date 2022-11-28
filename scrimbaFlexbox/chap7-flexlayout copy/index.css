@@ -1,0 +1,10 @@
+.container {
+    border: 5px solid orchid;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+}
+
+
