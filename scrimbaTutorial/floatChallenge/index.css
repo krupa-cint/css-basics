@@ -1,0 +1,26 @@
+
+.default {
+    width: 100%;
+    height: 50px;
+
+
+}
+
+.float {
+    float: left;
+    width: 75%;
+    height: 600px;
+
+}
+
+.float2 {
+    clear: right;
+    width: 25%;
+    height: 600px;
+  
+}
+.clear {
+    background-color: tomato;
+    height: 50px;
+
+}
