@@ -1,0 +1,22 @@
+ html, body {
+    margin: 0;
+    padding: 0; 
+} 
+
+header{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+header h1 {
+    margin: auto;
+    line-height: 100px;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+}

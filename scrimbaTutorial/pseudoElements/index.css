@@ -1,0 +1,16 @@
+/* ul li:nth-child(odd) a {
+    color: darkorange;
+} */
+
+ul li a:active {
+    color: brown;
+    font-size: 20px;
+}
+/*active -> click, hover*/
+
+/*pseudo elements has :: */
+ul a:hover::before {
+    content: "⇨  ";
+    color: orange;
+    margin-right: 20px;
+}
