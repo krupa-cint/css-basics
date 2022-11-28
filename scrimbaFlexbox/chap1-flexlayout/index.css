@@ -1,0 +1,33 @@
+.container {
+    border: 5px rgba(24, 24, 133, 0.278) solid;
+    display: flex;
+   /* flex-direction: row; column -- vertical stacking*/
+    justify-content: flex-end;  /*flex-start, flex-end, center, space-around, space-betwen, space-evenly*/
+
+}
+
+/* .search {
+    margin-right: auto;
+} */
+
+/* .home {
+    margin-left: 0px;
+}*/
+
+.home {
+    margin-right: auto;
+}
+/* .container > div {
+    flex: 1; /*flex-grow, flex-shrink, flex-basis =~ width=33.333%*
+} */
+
+/* .container > .search {
+    flex: 3;
+} */
+
+.container > .home {
+    flex: 3;
+}
+.container > .logout {
+    flex: 2;
+}
