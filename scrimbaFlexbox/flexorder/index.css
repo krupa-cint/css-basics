@@ -1,0 +1,21 @@
+.container {
+    border: 5px solid #1313db;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+   
+}
+
+.item1 {
+    order: 1;
+}
+
+.item2 {
+    order: 0;
+}
+
+.item3 {
+    order: -1;
+}
+
+

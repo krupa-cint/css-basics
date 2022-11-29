@@ -1,0 +1,29 @@
+html, body{
+    margin: 0px;
+    padding: 10px;
+    background-color: azure;
+    box-sizing: border-box;
+  
+}
+
+.container > div {
+    text-align: center;
+    font-size: 2em;
+    color: darkcyan;
+    padding: 10px;
+ 
+
+}
+
+.container > div:nth-child(1) {
+    background-color: goldenrod;
+}
+
+.container > div:nth-child(2) {
+    background-color: orangered;
+}
+
+.container > div:nth-child(3) {
+    background-color: aquamarine;
+}
+
