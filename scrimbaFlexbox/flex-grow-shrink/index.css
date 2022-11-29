@@ -1,0 +1,23 @@
+.container {
+
+    border: 5px solid plum;
+    display: flex;
+    
+
+}
+.home{
+    flex: 1 2 200px; 
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+}
+/* hiome n logout both has flex=n(1...n) which means both take 50% of the container both grow and shrink together*/
+/* flex =  flex-grow, flex-shrink, flex-basis(flex-width) */
+
+/* flex-basis: 200px;  both take 200px space */
+.logout{
+    flex: 10 1 200px;
+    /* flex-grow: 1;
+       flex-shrink: 1;
+        flex-basis: 200px;  */
+}

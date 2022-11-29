@@ -1,0 +1,31 @@
+.container {
+    border: 5px solid burlywood;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+html > body {
+    background-color: beige;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color:burlywood;
+    margin: 0; 
+}
+
+.container > div:nth-child(1) {
+    background-color: paleturquoise;
+}
+
+.container > div:nth-child(2) {
+    background-color: palegreen;
+}
+
+.container > div:nth-child(3) {
+    background-color: palevioletred;
+}

@@ -1,0 +1,10 @@
+.container {
+
+    border: 5px solid brown;
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.container > div {
+    width: 300px;
+}
