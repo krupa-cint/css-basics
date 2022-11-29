@@ -1,0 +1,34 @@
+.container {
+    border: 5px solid antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.search {
+    
+    flex: 1;
+}
+
+@media all and (max-width:600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > li {
+        flex: 1 1 50%;
+    }
+
+    .search >input {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:300px) {
+  
+    .container > li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
+
+
+}

@@ -1,0 +1,43 @@
+html, body {
+
+    background-color: bisque;
+    margin: 10px;
+}
+
+.container {
+    padding: 0;
+}
+
+.container > li {
+    padding: 10px;
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    list-style-type: none; /* this removes bullets from the li*/
+}
+
+.searchInput {
+    background: blue;
+    border: 0;
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid orangered ;
+    color: green
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: orangered;
+}
+
+.container > li {
+
+    background-color: aquamarine;
+
+}
