@@ -1,0 +1,77 @@
+/* .header {
+    grid-column-start: 2;
+    grid-column-end: -1; when we don't know number of columns then we can write it = -1
+    background-color: yellow;
+   
+}
+
+.menu {
+    background-color:rgb(162, 186, 211);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content {
+    background-color:lightpink;
+    grid-column-start: 2;
+    grid-column-end: -1;
+    
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: yellow;
+    
+} */
+
+/* above css shows menu to the left
+header right hand side
+content right hand side
+footer full screen
+
+|---|----------------| left menu , Header
+|   |----------------| center Content
+|   |                |
+|   |                |
+|---|----------------|
+---------------------- footer
+
+ instead of fiddling about the sizes we can use handly one grid-area*/
+.container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px; 
+    grid-template-areas:
+    "m h h h h h h h h h h h "  
+    "m c c c c c c c c c c c"   
+    "f f f f f f f f f f f f";
+
+}
+
+.header {
+    background-color: yellow;
+    grid-area: h;
+    
+
+}
+.menu {
+    background-color:rgb(162, 186, 211);
+    grid-area: m;
+    
+
+}
+.content {
+    background-color:lightpink;
+    grid-area: c;
+    
+
+}
+
+.footer{
+    background-color: yellow;
+    grid-area: f;
+    
+}
+
