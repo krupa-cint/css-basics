@@ -5,10 +5,10 @@
     grid-gap: 5px;
    
     justify-content: center;
-    /* grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr) */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr) 
 
-    grid-template: repeat(2, 1fr) /repeat(3, 1 fr)
+    /* grid-template: repeat(2, 1fr) /repeat(3, 1 fr) */
     
    
 }
