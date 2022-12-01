@@ -15,6 +15,13 @@ html , body {
     justify-content: center ;
     
 }
+.container > div {
+    height: 275px;
+    width: auto;
+    align-content: center;
+    text-align: center;
+ 
+} 
 
 
 
@@ -34,4 +41,5 @@ html , body {
         background-color: #ffcc5c;
   }
 
+  .container > div:
 
