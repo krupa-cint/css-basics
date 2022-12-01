@@ -20,6 +20,7 @@ html , body {
     width: auto;
     align-content: center;
     text-align: center;
+    padding-top: 10px;
  
 } 
 
@@ -41,5 +42,5 @@ html , body {
         background-color: #ffcc5c;
   }
 
-  .container > div:
+
 
