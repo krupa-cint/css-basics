@@ -1,4 +1,4 @@
-html, body {
+ /* html, body {
     background-color: white;
     margin: 10px;
     padding: 10px;
@@ -7,7 +7,7 @@ html, body {
 
 }
 nav > .circle {
-    /* margin: 10px;*/
+     margin: 10px;
    
     height: 125px;
     width: 125px;
@@ -28,7 +28,7 @@ nav > div {
  }
 
 nav > div:nth-child(1) {
-    background-color: black;
+    background-color: green;
 }
 
 nav > div:nth-child(2) {
@@ -86,4 +86,4 @@ p {
     color: rgba(47, 79, 79, 0.866);
 }
 
-
+ */
