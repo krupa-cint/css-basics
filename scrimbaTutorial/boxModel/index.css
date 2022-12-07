@@ -1,0 +1,19 @@
+* {
+    padding: 25px;
+    margin: 20px ;
+    border: 10px ;
+    background-color: papayawhip;
+    
+}
+
+.one {
+    background-color: tomato;
+    padding: 65px;
+    margin: 90px ;
+    border: 10px ;
+}
+
+.two {
+    background-color: turquoise;
+}
+

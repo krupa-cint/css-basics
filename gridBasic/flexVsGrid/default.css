@@ -1,0 +1,26 @@
+html, body {
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: blue;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    color: olivedrab
+        
+}
+.flexbox-header  {
+    display: flex;
+    flex-direction: row; 
+    flex: 1fr;
+    color: orange;
+    margin : 20px;
+    justify-content: space-around;
+    border: 5px solid slategrey;
+   
+}
+

@@ -2,7 +2,7 @@
     border: 5px rgba(24, 24, 133, 0.278) solid;
     display: flex;
    /* flex-direction: row; column -- vertical stacking*/
-    justify-content: flex-end;  /*flex-start, flex-end, center, space-around, space-betwen, space-evenly*/
+    justify-content: flex-start;  /*flex-start, flex-end, center, space-around, space-betwen, space-evenly*/
 
 }
 
